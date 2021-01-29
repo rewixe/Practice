@@ -1,16 +1,12 @@
 FROM opensuse/leap
-#FROM alpine
-#WORKDIR /root/helloworld
-COPY helloworld/HelloWorld.java /root/helloworld
+COPY helloworld/HelloWorld.java /root/helloworld/HelloWorld.java
 COPY scripts/keepAlive.bash /tmp/keepAlive.bash
 
-RUN zypper install -y java-1_8_0-openjdk \
-    jdk-8u66-linux-x64 && \
-    zypper clean -a
+RUN zypper install -y java-1_8_0-openjdk-devel
 
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
 ENV PATH $PATH:$JAVA_HOME/bin
 
-RUN javac HelloWorld.java
+RUN javac /root/helloworld/HelloWorld.java
 
-ENTRYPOINT java HelloWorld
+ENTRYPOINT ["/bin/bash","/tmp/keepAlive.bash"]
