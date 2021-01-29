@@ -1,6 +1,6 @@
 FROM alpine
 WORKDIR /root/helloworld
-COPY HelloWorld.java /root/helloworld
+COPY helloworld/HelloWorld.java /root/helloworld
 
 RUN apk add openjdk8
 
