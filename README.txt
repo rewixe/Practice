@@ -1,7 +1,6 @@
 Test project
 
 Next steps:
-Java hello world
 Docker setup with Java
 Spring boot REST API setup
 Testing setup
@@ -31,3 +30,8 @@ ML
 Mobile
 Javascript (React/Node/Angular/etc)
 Git branching
+
+
+
+DONE
+Java hello world
