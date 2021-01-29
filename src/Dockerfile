@@ -1,3 +1,4 @@
+#FROM opensuse/leap
 FROM alpine
 WORKDIR /root/helloworld
 COPY helloworld/HelloWorld.java /root/helloworld

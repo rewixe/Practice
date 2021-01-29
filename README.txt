@@ -1,7 +1,9 @@
 Test project
 
 Next steps:
-Docker setup with Java
+Docker container keep running
+Add git add-ons to Intellij
+Convert to SLES base image
 Spring boot REST API setup
 Testing setup
 Python setup
@@ -35,3 +37,4 @@ Git branching
 
 DONE
 Java hello world
+Docker setup with Java
