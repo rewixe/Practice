@@ -1,6 +1,6 @@
 FROM opensuse/leap
 COPY helloworld/HelloWorld.java /root/helloworld/HelloWorld.java
-COPY scripts/keepAlive.bash /tmp/keepAlive.bash
+COPY ../bash/scripts/keepAlive.bash /tmp/keepAlive.bash
 
 RUN zypper install -y java-1_8_0-openjdk-devel
 

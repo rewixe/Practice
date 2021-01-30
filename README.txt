@@ -1,9 +1,7 @@
 Test project
 
 Next steps:
-Docker container keep running
 Add git add-ons to Intellij
-Convert to SLES base image
 Spring boot REST API setup
 Testing setup
 Python setup
@@ -15,11 +13,11 @@ Javascript front end
 Tech added:
 Git
 Intellij
+Java
+Docker
 
 Tech to be added:
-Java
 Python
-Docker
 Kubernetes
 Helm
 Spring
@@ -32,9 +30,13 @@ ML
 Mobile
 Javascript (React/Node/Angular/etc)
 Git branching
+CSAR
+Jar
 
 
 
 DONE
 Java hello world
 Docker setup with Java
+Docker container keep running
+Convert to SLES base image
