@@ -1,8 +1,9 @@
 Test project
 
 Next steps:
+Add dockerfile to correct dir
+Use Practice jar instead of helloworld (<build>)
 Add git add-ons to Intellij
-Spring boot REST API setup
 Testing setup
 Python setup
 Kubernetes pod setup
@@ -15,12 +16,12 @@ Git
 Intellij
 Java
 Docker
+Spring
 
 Tech to be added:
 Python
 Kubernetes
 Helm
-Spring
 Jenkins
 Spinnaker
 Testing
@@ -40,3 +41,4 @@ Java hello world
 Docker setup with Java
 Docker container keep running
 Convert to SLES base image
+Spring boot REST API setup
