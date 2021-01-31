@@ -1,8 +1,6 @@
 Test project
 
 Next steps:
-Add dockerfile to correct dir
-Use Practice jar instead of helloworld (<build>)
 Add git add-ons to Intellij
 Testing setup
 Python setup
@@ -17,6 +15,7 @@ Intellij
 Java
 Docker
 Spring
+Jar
 
 Tech to be added:
 Python
@@ -32,7 +31,7 @@ Mobile
 Javascript (React/Node/Angular/etc)
 Git branching
 CSAR
-Jar
+
 
 
 
@@ -42,3 +41,5 @@ Docker setup with Java
 Docker container keep running
 Convert to SLES base image
 Spring boot REST API setup
+Add dockerfile to correct dir
+Use Practice jar instead of helloworld (<build>)
