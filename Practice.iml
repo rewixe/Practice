@@ -13,7 +13,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="spring-boot-2.4.2" level="project" />
     <orderEntry type="library" exported="" name="spring-web-5.3.3" level="project" />
-    <orderEntry type="library" exported="" name="spring-webmvc-5.3.3" level="project" />
+    <orderEntry type="library" name="spring-webmvc-5.3.3" level="project" />
     <orderEntry type="library" exported="" name="spring-boot-autoconfigure-2.4.2" level="project" />
     <orderEntry type="library" exported="" name="junit-jupiter-5.7.0" level="project" />
     <orderEntry type="library" exported="" name="spring-test-5.3.3" level="project" />
