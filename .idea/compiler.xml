@@ -5,6 +5,7 @@
       <module name="demo" target="1.8" />
       <module name="helloworld" target="8" />
       <module name="Practice" target="8" />
+      <module name="untitled" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
