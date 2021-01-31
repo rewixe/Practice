@@ -1,10 +1,13 @@
 Test project
 
 Next steps:
-Testing setup
-Python setup
+Spring testing setup (one test)
+Simple interactive front end
 Kubernetes pod setup
 Helm setup
+Jenkins setup
+Spinnaker setup
+Python setup
 Postgres setup
 Javascript front end 
 
