@@ -1,7 +1,6 @@
 Test project
 
 Next steps:
-Add git add-ons to Intellij
 Testing setup
 Python setup
 Kubernetes pod setup
@@ -43,3 +42,4 @@ Convert to SLES base image
 Spring boot REST API setup
 Add dockerfile to correct dir
 Use Practice jar instead of helloworld (<build>)
+Add git add-ons to Intellij
