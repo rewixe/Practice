@@ -1,8 +1,7 @@
 Test project
 
 Next steps:
-Spring testing setup (one test)
-Simple interactive front end
+Simple interactive front end (button=>hello)
 Kubernetes pod setup
 Helm setup
 Jenkins setup
@@ -18,6 +17,7 @@ Java
 Docker
 Spring
 Jar
+Testing
 
 Tech to be added:
 Python
@@ -25,7 +25,6 @@ Kubernetes
 Helm
 Jenkins
 Spinnaker
-Testing
 Postgres
 Microservices
 ML
@@ -46,3 +45,4 @@ Spring boot REST API setup
 Add dockerfile to correct dir
 Use Practice jar instead of helloworld (<build>)
 Add git add-ons to Intellij
+Spring testing setup (one test)
