@@ -1,6 +1,9 @@
 Test project
 
 Next steps:
+Integrate Jenkins with Git SCM
+withMaven fix
+finx Jenkins intellij plugin
 Simple interactive front end (button=>hello)
 Kubernetes pod setup
 Helm setup
