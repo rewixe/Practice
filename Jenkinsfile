@@ -1,12 +1,14 @@
 pipeline {
     agent any
+    environment {
+    PATH = "C:/Program Files/Git/bin:$PATH"
+    }
 
     stages {
-        stage ('Compile stage') {
-
+        stage ('Verify stage') {
             steps {
                 withMaven(maven : 'maven_3_5_4') {
-                    sh 'mvn verify'
+                    powershell 'mvn verify -f C:/Users/PC/Documents/Sideproject/Practice'
                 }
             }
         }
@@ -15,18 +17,18 @@ pipeline {
 
             steps {
                 withMaven(maven : 'maven_3_5_4') {
-                    sh 'mvn test'
+                    powershell 'mvn test -f C:/Users/PC/Documents/Sideproject/Practice'
                 }
             }
         }
 
-        stage ('Deploy stage') {
+        stage ('Validate stage') {
 
-                    steps {
-                        withMaven(maven : 'maven_3_5_4') {
-                            sh 'mvn clean'
-                        }
-                    }
+            steps {
+                withMaven(maven : 'maven_3_5_4') {
+                    powershell 'mvn validate -f C:/Users/PC/Documents/Sideproject/Practice'
                 }
+            }
+        }
     }
 }
