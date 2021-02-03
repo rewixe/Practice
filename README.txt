@@ -1,12 +1,11 @@
 Test project
 
 Next steps:
-Integrate Jenkins with Git SCM
+Spinnaker setup
+CSAR build?
 Simple interactive front end (button=>hello)
 Kubernetes pod setup
 Helm setup
-Jenkins setup
-Spinnaker setup
 Python setup
 Postgres setup
 Javascript front end 
@@ -19,12 +18,12 @@ Docker
 Spring
 Jar
 Testing
+Jenkins
 
 Tech to be added:
 Python
 Kubernetes
 Helm
-Jenkins
 Spinnaker
 Postgres
 Microservices
@@ -49,3 +48,5 @@ Add git add-ons to Intellij
 Spring testing setup (one test)
 withMaven fix
 fix Jenkins intellij plugin
+Integrate Jenkins with Git SCM
+Jenkins setup
