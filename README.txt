@@ -2,8 +2,6 @@ Test project
 
 Next steps:
 Integrate Jenkins with Git SCM
-withMaven fix
-finx Jenkins intellij plugin
 Simple interactive front end (button=>hello)
 Kubernetes pod setup
 Helm setup
@@ -49,3 +47,5 @@ Add dockerfile to correct dir
 Use Practice jar instead of helloworld (<build>)
 Add git add-ons to Intellij
 Spring testing setup (one test)
+withMaven fix
+fix Jenkins intellij plugin
