@@ -3,12 +3,14 @@ Test project
 Next steps:
 Spinnaker setup
 CSAR build?
-Simple interactive front end (button=>hello)
 Kubernetes pod setup
 Helm setup
+
+Simple interactive front end (button=>hello)
 Python setup
 Postgres setup
-Javascript front end 
+Javascript front end
+Create other Jenkins items
 
 Tech added:
 Git
