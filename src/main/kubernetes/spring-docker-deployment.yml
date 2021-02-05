@@ -18,3 +18,5 @@ spec:
       - image: spring-docker
         imagePullPolicy: Never
         name: spring-docker-pod
+        ports:
+          - containerPort: 8085
