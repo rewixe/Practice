@@ -5,7 +5,6 @@ Spinnaker setup
 CSAR build?
 Helm setup
 Simple interactive front end (button=>hello)
-Python setup
 Postgres setup
 Javascript front end
 Create other Jenkins items
@@ -21,9 +20,9 @@ Jar
 Testing
 Jenkins
 Kubernetes
+Python
 
 Tech to be added:
-Python
 Helm
 Spinnaker
 Postgres
@@ -54,4 +53,5 @@ Jenkins setup
 Kubernetes pod setup
 Create k8s folder
 Create k8s spring-docker deployment
+Python setup
 
