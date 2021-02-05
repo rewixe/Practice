@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: spring-docker
+  name: spring-docker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spring-docker
+  template:
+    metadata:
+      labels:
+        app: spring-docker
+    spec:
+      containers:
+      - image: spring-docker
+        imagePullPolicy: Never
+        name: spring-docker-pod

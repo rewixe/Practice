@@ -1,9 +1,6 @@
 Test project
 
 Next steps:
-Use SLES image for pods
-Create k8s spring-docker deployment
-Create k8s folder
 Spinnaker setup
 CSAR build?
 Helm setup
@@ -12,6 +9,7 @@ Python setup
 Postgres setup
 Javascript front end
 Create other Jenkins items
+Use SLES image for pods
 
 Tech added:
 Git
@@ -54,3 +52,6 @@ fix Jenkins intellij plugin
 Integrate Jenkins with Git SCM
 Jenkins setup
 Kubernetes pod setup
+Create k8s folder
+Create k8s spring-docker deployment
+
