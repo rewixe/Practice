@@ -9,4 +9,8 @@ spec:
   ports:
   - port: 8085
     targetPort: 8085
+    name: p1
+  - port: 8086
+    targetPort: 8086
+    name: p2
   type: LoadBalancer

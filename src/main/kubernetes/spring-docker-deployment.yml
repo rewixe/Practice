@@ -20,3 +20,4 @@ spec:
         name: spring-docker-pod
         ports:
           - containerPort: 8085
+          - containerPort: 8086
