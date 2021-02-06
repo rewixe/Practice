@@ -9,6 +9,12 @@ Postgres setup
 Javascript front end
 Create other Jenkins items
 Use SLES image for pods
+Add another microservice
+Add simple js framework helloworld script, RUN in dockerfile
+Create another branch, merge
+Add simple python ML script
+Allow UI to work on mobile
+Create app
 
 Tech added:
 Git
