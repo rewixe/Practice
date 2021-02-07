@@ -2,5 +2,6 @@ FROM openjdk:8
 COPY /target/practice.jar /tmp/practice.jar
 COPY /helloworld/src/main/resources/application.properties /tmp/application.properties
 COPY /src/main/python/server.py /var/tmp/server.py
+RUN python /var/tmp/server.py
 EXPOSE 8085 8086
 ENTRYPOINT ["java","-jar","/tmp/practice.jar","--spring.config.location=file:/tmp/application.properties"]

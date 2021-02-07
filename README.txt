@@ -15,6 +15,7 @@ Create another branch, merge
 Add simple python ML script
 Allow UI to work on mobile
 Create app
+Java 8 specifics
 
 Tech added:
 Git
