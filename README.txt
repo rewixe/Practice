@@ -31,7 +31,6 @@ Python
 
 Tech to be added:
 Helm
-Spinnaker
 Postgres
 Microservices
 ML
@@ -61,4 +60,4 @@ Kubernetes pod setup
 Create k8s folder
 Create k8s spring-docker deployment
 Python setup
-
+Spinnaker (not compatible)
