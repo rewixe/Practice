@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ('Verify stage') {
             steps {
-                withMaven(maven : 'maven_3_5_4') {
+                withMaven(maven : 'maven_3_8_4') {
                     powershell 'mvn verify -f C:/Users/PC/Documents/Sideproject/Practice'
                 }
             }
