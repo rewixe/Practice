@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage ('Verify stage') {
             steps {
-                withMaven(maven : 'maven_3_8_4') {
+                withMaven(maven : 'maven3') {
                     powershell 'mvn verify -f C:/Users/tavin/Documents/Sideproject/Practice'
                 }
             }
@@ -16,7 +16,7 @@ pipeline {
         stage ('Testing stage') {
 
             steps {
-                withMaven(maven : 'maven_3_5_4') {
+                withMaven(maven : 'maven3') {
                     powershell 'mvn test -f C:/Users/tavin/Documents/Sideproject/Practice'
                 }
             }
@@ -25,7 +25,7 @@ pipeline {
         stage ('Validate stage') {
 
             steps {
-                withMaven(maven : 'maven_3_5_4') {
+                withMaven(maven : 'maven3') {
                     powershell 'mvn validate -f C:/Users/tavin/Documents/Sideproject/Practice'
                 }
             }
