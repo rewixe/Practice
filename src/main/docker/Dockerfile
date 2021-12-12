@@ -1,5 +1,5 @@
 FROM opensuse/leap
-COPY ../bash/scripts/keepAlive.bash /tmp/keepAlive.bash
+COPY image_content/keepAlive.bash /tmp/keepAlive.bash
 
 RUN zypper install -y java-1_8_0-openjdk-devel
 

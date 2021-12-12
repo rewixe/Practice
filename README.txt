@@ -1,6 +1,14 @@
+Basic setup:
+UI: go to http://localhost:8085/rest/docker/hello
+Docker: docker build . (main Dockerfile)
+docker run -p 8085:8085 1da2b732347be6f6aa56631792981dd13305166031cfef5206f327d345a1e31e
+exec into container to start jar, java -jar x.jar
+Jenkins: 
+
 Test project
 
 Next steps:
+Build snapshot -> copy into image -> Build image -> run image -> test?
 Spinnaker setup
 CSAR build?
 Helm setup
@@ -44,21 +52,21 @@ Pyunits
 
 
 DONE
-Java hello world
-Docker setup with Java
-Docker container keep running
-Convert to SLES base image
-Spring boot REST API setup
-Add dockerfile to correct dir
-Use Practice jar instead of helloworld (<build>)
-Add git add-ons to Intellij
-Spring testing setup (one test)
-withMaven fix
-fix Jenkins intellij plugin
-Integrate Jenkins with Git SCM
-Jenkins setup
-Kubernetes pod setup
-Create k8s folder
-Create k8s spring-docker deployment
-Python setup
-Spinnaker (not compatible)
+x	Java hello world										
+x	Docker setup with Java
+x	Docker container keep running
+x	Convert to SLES base image
+x	Spring boot REST API setup
+x	Add dockerfile to correct dir
+x	Use Practice jar instead of helloworld (<build>)
+x	Add git add-ons to Intellij
+x	Spring testing setup (one test)
+x	withMaven fix
+x	fix Jenkins intellij plugin
+	Integrate Jenkins with Git SCM
+x	Jenkins setup
+	Kubernetes pod setup
+	Create k8s folder
+	Create k8s spring-docker deployment
+	Python setup
+	Spinnaker (not compatible)

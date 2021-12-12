@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class HelloResourceTest {
     @Test
     void hello() {
-        HelloResource hc = new HelloResource();
+        com.docker.helloworld.resource.HelloResource hc = new com.docker.helloworld.resource.HelloResource();
         String out = hc.hello();
         assertEquals("Hello", out);
     }
