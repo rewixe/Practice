@@ -1,11 +1,7 @@
-FROM opensuse/leap
-COPY image_content/keepAlive.bash /tmp/keepAlive.bash
-
-RUN zypper install -y java-1_8_0-openjdk-devel
-
-ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
-ENV PATH $PATH:$JAVA_HOME/bin
-
-RUN javac /root/helloworld/HelloWorld.java
-
-ENTRYPOINT ["/bin/bash","/tmp/keepAlive.bash"]
+FROM openjdk:8-jdk-alpine
+COPY image_content/practice.jar /tmp/practice.jar
+COPY image_content/server2.py /tmp/server2.py
+RUN apk add python3
+RUN chmod +x /tmp/server2.py
+ENTRYPOINT ["java","-jar","-Dserver.port=8083","/tmp/practice.jar"]
+CMD ["nohup","python3","/tmp/server2.py","2>","/dev/null","&"]

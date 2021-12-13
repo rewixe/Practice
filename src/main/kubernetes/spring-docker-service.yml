@@ -13,4 +13,7 @@ spec:
   - port: 8086
     targetPort: 8086
     name: p2
+  - port: 8083
+    targetPort: 8083
+    name: p3
   type: LoadBalancer

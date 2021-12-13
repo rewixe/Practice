@@ -63,10 +63,11 @@ x	Add git add-ons to Intellij
 x	Spring testing setup (one test)
 x	withMaven fix
 x	fix Jenkins intellij plugin
-	Integrate Jenkins with Git SCM
+x	Integrate Jenkins with Git SCM
 x	Jenkins setup
-	Kubernetes pod setup
-	Create k8s folder
-	Create k8s spring-docker deployment
-	Python setup
-	Spinnaker (not compatible)
+x	Kubernetes pod setup
+x	Create k8s folder
+x	Create k8s spring-docker deployment
+x	Python setup
+x	Spinnaker (not compatible)
+New stuff...

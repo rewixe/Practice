@@ -44,9 +44,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.4.RELEASE</version>
-                <configuration>
-                    <mainClass>com.docker.helloworld.HelloworldApplication</mainClass>
-                </configuration>
             </plugin>
         </plugins>
         <finalName>practice</finalName>
