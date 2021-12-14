@@ -37,7 +37,15 @@ Jenkins
 Kubernetes
 Python
 
-Tech to be added:
+To be added:
+Startup/entrypoint script
+Python cleanup
+File cleanup
+Add in complex java stuff
+Add in more pipeline -> build spring package->copy into /x-> push to git->rebuild docker->start pods etc.
+DevOps project videos
+Proper README explaining setup
+Dependencies/modules
 Helm
 Postgres
 Microservices
@@ -47,9 +55,6 @@ Javascript (React/Node/Angular/etc)
 Git branching
 CSAR
 Pyunits
-
-
-
 
 DONE
 x	Java hello world										
@@ -70,4 +75,4 @@ x	Create k8s folder
 x	Create k8s spring-docker deployment
 x	Python setup
 x	Spinnaker (not compatible)
-New stuff...
+Refactor structure
