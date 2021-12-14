@@ -39,8 +39,6 @@ Python
 
 To be added:
 Startup/entrypoint script
-Python cleanup
-File cleanup
 Add in complex java stuff
 Add in more pipeline -> build spring package->copy into /x-> push to git->rebuild docker->start pods etc.
 DevOps project videos
@@ -57,22 +55,24 @@ CSAR
 Pyunits
 
 DONE
-x	Java hello world										
-x	Docker setup with Java
-x	Docker container keep running
-x	Convert to SLES base image
-x	Spring boot REST API setup
-x	Add dockerfile to correct dir
-x	Use Practice jar instead of helloworld (<build>)
-x	Add git add-ons to Intellij
-x	Spring testing setup (one test)
-x	withMaven fix
-x	fix Jenkins intellij plugin
-x	Integrate Jenkins with Git SCM
-x	Jenkins setup
-x	Kubernetes pod setup
-x	Create k8s folder
-x	Create k8s spring-docker deployment
-x	Python setup
-x	Spinnaker (not compatible)
+Java hello world
+Docker setup with Java
+Docker container keep running
+Convert to SLES base image
+Spring boot REST API setup
+Add dockerfile to correct dir
+Use Practice jar instead of helloworld (<build>)
+Add git add-ons to Intellij
+Spring testing setup (one test)
+withMaven fix
+fix Jenkins intellij plugin
+Integrate Jenkins with Git SCM
+Jenkins setup
+Kubernetes pod setup
+Create k8s folder
+Create k8s spring-docker deployment
+Python setup
+Spinnaker (not compatible)
 Refactor structure
+Python cleanup
+File cleanup
