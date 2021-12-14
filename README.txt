@@ -38,7 +38,6 @@ Kubernetes
 Python
 
 To be added:
-Startup/entrypoint script
 Add in complex java stuff
 Add in more pipeline -> build spring package->copy into /x-> push to git->rebuild docker->start pods etc.
 DevOps project videos
@@ -76,3 +75,4 @@ Spinnaker (not compatible)
 Refactor structure
 Python cleanup
 File cleanup
+Startup/entrypoint script
