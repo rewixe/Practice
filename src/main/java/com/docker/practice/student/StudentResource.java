@@ -1,4 +1,4 @@
-package com.docker.helloworld.student;
+package com.docker.practice.student;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

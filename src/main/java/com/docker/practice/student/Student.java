@@ -1,4 +1,4 @@
-package com.docker.helloworld.student;
+package com.docker.practice.student;
 
 import java.time.LocalDate;
 

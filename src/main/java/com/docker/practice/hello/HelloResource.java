@@ -1,4 +1,4 @@
-package com.docker.helloworld.resource;
+package com.docker.practice.hello;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
