@@ -8,22 +8,27 @@ K8s: install via docker desktop
 Test project
 
 Next steps:
+3x Spring Boot tutorials
+3x Java 8 tutorial/specifics/Add in complex java stuff
+Add in more pipeline -> build spring package->copy into /x-> push to git->rebuild docker->start pods etc.
+DevOps project videos
+Dependencies/modules
 Build snapshot -> copy into image -> Build image -> run image -> test?
 Spinnaker setup
-CSAR build?
 Helm setup
 Simple interactive front end (button=>hello)
 Postgres setup
 Javascript front end
 Create other Jenkins items
-Use SLES image for pods
 Add another microservice
 Add simple js framework helloworld script, RUN in dockerfile
 Create another branch, merge
 Add simple python ML script
 Allow UI to work on mobile
 Create app
-Java 8 specifics
+CSAR build?
+AWS?
+Use SLES image for pods
 
 Tech added:
 Git
@@ -38,11 +43,6 @@ Kubernetes
 Python
 
 To be added:
-Add in complex java stuff
-Add in more pipeline -> build spring package->copy into /x-> push to git->rebuild docker->start pods etc.
-DevOps project videos
-Proper README explaining setup
-Dependencies/modules
 Helm
 Postgres
 Microservices
