@@ -1,9 +1,9 @@
 Basic setup:
-UI: go to http://localhost:8085/rest/docker/hello
-Docker: docker build . (main Dockerfile)
+UI: go to http://localhost:8083/rest/docker/hello (spring boot), http://localhost:8086/ (python)
+Docker: docker build --no-cache -t spring-docker -f .\docker\Dockerfile . (main Dockerfile)
 docker run -p 8085:8085 1da2b732347be6f6aa56631792981dd13305166031cfef5206f327d345a1e31e
-exec into container to start jar, java -jar x.jar
-Jenkins: 
+Jenkins: install Jenkins, install maven plugins, add maven tool within Jenkins, create pipeline
+K8s: install via docker desktop
 
 Test project
 
